@@ -1,0 +1,324 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ExceptionMessage" xml:space="preserve">
+    <value>Exception occured: {0}</value>
+  </data>
+  <data name="PasswordCaption" xml:space="preserve">
+    <value>Password</value>
+  </data>
+  <data name="PasswordTooltip" xml:space="preserve">
+    <value>Input password</value>
+  </data>
+  <data name="_foundIn" xml:space="preserve">
+    <value>' found in '</value>
+  </data>
+  <data name="_lowercaseLetter" xml:space="preserve">
+    <value>1 lowercase letter ({0}%)</value>
+  </data>
+  <data name="_lowercaseLetters" xml:space="preserve">
+    <value>{0} lowercase letters ({1}%)</value>
+  </data>
+  <data name="_moderate" xml:space="preserve">
+    <value>Moderate</value>
+  </data>
+  <data name="_noLowercaseLetters" xml:space="preserve">
+    <value>No lowercase letters</value>
+  </data>
+  <data name="_noMatchesFound" xml:space="preserve">
+    <value>No dictionary matches found. </value>
+  </data>
+  <data name="_noNumbers" xml:space="preserve">
+    <value>No numbers</value>
+  </data>
+  <data name="_noSpecialCharacters" xml:space="preserve">
+    <value>No special characters</value>
+  </data>
+  <data name="_noUppercaseLetters" xml:space="preserve">
+    <value>No uppercase letters</value>
+  </data>
+  <data name="_number" xml:space="preserve">
+    <value>1 number ({0}%)</value>
+  </data>
+  <data name="_numbers" xml:space="preserve">
+    <value>{0} numbers ({1}%)</value>
+  </data>
+  <data name="_specialCharacter" xml:space="preserve">
+    <value>1 special character ({0}%)</value>
+  </data>
+  <data name="_specialCharacters" xml:space="preserve">
+    <value>{0} special characters ({1}%)</value>
+  </data>
+  <data name="_stringLengthOneCharacter" xml:space="preserve">
+    <value>1 character</value>
+  </data>
+  <data name="_stringLengthOtherThanOne" xml:space="preserve">
+    <value>{0} characters</value>
+  </data>
+  <data name="_strong" xml:space="preserve">
+    <value>Strong</value>
+  </data>
+  <data name="_uppercaseLetter" xml:space="preserve">
+    <value>1 uppercase letter ({0}%)</value>
+  </data>
+  <data name="_uppercaseLetters" xml:space="preserve">
+    <value>{0} uppercase letters ({1}%)</value>
+  </data>
+  <data name="_veryStrong" xml:space="preserve">
+    <value>Very Strong</value>
+  </data>
+  <data name="_veryWeak" xml:space="preserve">
+    <value>Very weak</value>
+  </data>
+  <data name="_weak" xml:space="preserve">
+    <value>Weak</value>
+  </data>
+  <data name="_day" xml:space="preserve">
+    <value> day</value>
+  </data>
+  <data name="_days" xml:space="preserve">
+    <value> days</value>
+  </data>
+  <data name="_entropyGood" xml:space="preserve">
+    <value>Good entropy value between 60 and 90 reached.</value>
+  </data>
+  <data name="_entropyStrong" xml:space="preserve">
+    <value>Strong entropy value between 90 and 120 reached.</value>
+  </data>
+  <data name="_entropyLow" xml:space="preserve">
+    <value>Entropy is below 40. This could indicate that sophisticated guessing attacks could hash your password earlier than estimated.</value>
+  </data>
+  <data name="_entropyVeryStrong" xml:space="preserve">
+    <value>Very strong entropy of above 120 reached. This is an excellent value.</value>
+  </data>
+  <data name="_hour" xml:space="preserve">
+    <value> hour</value>
+  </data>
+  <data name="_hours" xml:space="preserve">
+    <value> hours</value>
+  </data>
+  <data name="_minimumLengthSurpassed" xml:space="preserve">
+    <value>Minimum length of 8 characters surpassed.</value>
+  </data>
+  <data name="_minute" xml:space="preserve">
+    <value> minute</value>
+  </data>
+  <data name="_minutes" xml:space="preserve">
+    <value> minutes</value>
+  </data>
+  <data name="_month" xml:space="preserve">
+    <value> month</value>
+  </data>
+  <data name="_months" xml:space="preserve">
+    <value> months</value>
+  </data>
+  <data name="_over" xml:space="preserve">
+    <value> over </value>
+  </data>
+  <data name="_second" xml:space="preserve">
+    <value> second</value>
+  </data>
+  <data name="_seconds" xml:space="preserve">
+    <value> seconds</value>
+  </data>
+  <data name="_secureMinimumLengthSurpassed" xml:space="preserve">
+    <value>Your password exceeded the minimum length of 12 characters, which is a must for a nowadays secure password.</value>
+  </data>
+  <data name="_tooShort" xml:space="preserve">
+    <value>The Password is shorter than 8 characters. Try adding more characters to make it more secure.</value>
+  </data>
+  <data name="_under" xml:space="preserve">
+    <value>under </value>
+  </data>
+  <data name="_year" xml:space="preserve">
+    <value> year</value>
+  </data>
+  <data name="_years" xml:space="preserve">
+    <value> years</value>
+  </data>
+  <data name="PasswordFeedbackCaption" xml:space="preserve">
+    <value>PasswordFeedback</value>
+  </data>
+  <data name="PasswordFeedbackTooltip" xml:space="preserve">
+    <value>Gathers a detailed report on the password analysis done.</value>
+  </data>
+  <data name="ExtrapolateBruteforceCaption" xml:space="preserve">
+    <value>ExtrapolateBruteforce</value>
+  </data>
+  <data name="ExtrapolateBruteforceTooltip" xml:space="preserve">
+    <value>A tool to evaluate the resistance of passwords against sophisticated guessing and brute-force attacks</value>
+  </data>
+  <data name="_bruteforceTimeUserCaption" xml:space="preserve">
+    <value>Sophisticated guessing attack time:</value>
+  </data>
+  <data name="_character" xml:space="preserve">
+    <value>character</value>
+  </data>
+  <data name="_characters" xml:space="preserve">
+    <value>characters</value>
+  </data>
+  <data name="_shannonEntropyCaption" xml:space="preserve">
+    <value>Shannon-Entropy: {0}</value>
+  </data>
+  <data name="_ExtrapolateBruteforce" xml:space="preserve">
+    <value>Extrapolation results</value>
+  </data>
+  <data name="_attackerAnalysis" xml:space="preserve">
+    <value>Brute-force metrics</value>
+  </data>
+  <data name="_guessesUserCaption" xml:space="preserve">
+    <value>Guesses: 10 ^ {0}</value>
+  </data>
+  <data name="_minimumLengthReached" xml:space="preserve">
+    <value>Your password reached the minimum amount of characters to pass a standard password policy check. </value>
+  </data>
+  <data name="_minimumSecureLengthReached" xml:space="preserve">
+    <value>Your password reached the minimum length of 12 characters for a nowadays medorately secure password.</value>
+  </data>
+  <data name="_passwordQuotientCaption" xml:space="preserve">
+    <value>Matches of password: {0}% ({1} {2})</value>
+  </data>
+  <data name="_passwordStrengthCaption" xml:space="preserve">
+    <value>Password strength</value>
+  </data>
+  <data name="_userAnalysis" xml:space="preserve">
+    <value>User password string metrics</value>
+  </data>
+  <data name="_matchesOneHundredPercent" xml:space="preserve">
+    <value>100% of your password have been found in dictionaries. No matter the security measurements taken, it will be cracked almost instantaneously!</value>
+  </data>
+  <data name="_bruteforceTimeAttackerCaption" xml:space="preserve">
+    <value>Brute-force time: {0}</value>
+  </data>
+  <data name="_fiftyPercentOfDictionaryMatches" xml:space="preserve">
+    <value>Over 50% of your password got matched. Be aware that sophisticated guessing attacks *could* be successfull earlier because of that.</value>
+  </data>
+  <data name="_guessesAttackerCaption" xml:space="preserve">
+    <value>Guesses: 10 ^ {0}</value>
+  </data>
+  <data name="_matchesFound" xml:space="preserve">
+    <value>{0} matches found:</value>
+  </data>
+  <data name="_zxcvbnEntropyCaption" xml:space="preserve">
+    <value>zxcvbn-Entropy: {0}</value>
+  </data>
+  <data name="_matchFound" xml:space="preserve">
+    <value>{0} match found:</value>
+  </data>
+</root>
